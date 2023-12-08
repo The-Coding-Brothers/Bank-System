@@ -1,4 +1,4 @@
-import Conta from "./conta.js";
+import Account from "./account.js";
 
 const accountDB = [];
 const accountFormElement = document.querySelector('#create__account--form');
@@ -14,6 +14,6 @@ function createAccount() {
         return;
     }
     
-    accountDB.push(new Conta(firstNameElement.value, lastNameElement.value));
+    accountDB.push(new Account(firstNameElement.value, lastNameElement.value));
     accountFormElement.innerHTML = `Hello ${firstNameElement.value} ${lastNameElement.value}!<br>Welcome to The CBB Bank<br>Thanks for creating an account with us!`
 }
