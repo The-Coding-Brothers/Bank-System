@@ -21,4 +21,4 @@ This project a simple mocked Banking experience built with HTML, CSS and some Ja
 ## Authors
 
 - LinkedIn - [Adriel Amorim](https://www.linkedin.com/in/adrielamorim/)
-- LinkedIn - [José Rodrigues](https://www.linkedin.com/in/NAME-HERE/)
+- LinkedIn - [José Rodrigues](https://www.linkedin.com/in/jrodrigues-neto/)
