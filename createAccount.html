@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>CBB - Create Account</title>
+</head>
+<body>
+    <div id="page__wrapper">
+        <nav class="navbar">
+            <div class="navbar__logo">
+                <img class="logo" src="./assets/imgs/logo.png" alt="CBB Logo">
+            </div>
+            <div class="navbar__links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="createAccount.html">Create Account</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="content">
+            <section class="content__create--account">
+                <h1 class="content__title">Create Account</h1>
+                <form id="create__account--form">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="First name"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Last name"><br><br>
+                    <input type="button" id="submit" value="Create Account">
+                  </form> 
+            </section>
+        </div>
+    </div>
+
+    <script type="module" src="./assets/scripts/createAccount.js"></script>
+</body>
+</html>

@@ -4,7 +4,7 @@
 // Objetivo: criar uma classe Conta que possui os métodos depositar, sacar, verSaldo, comprarPremium e solicitarEmprestimo
 
 
-class Conta {
+export default class Conta {
     constructor(nome, sobrenome){
         this.agencia = '0001';
         this.nome = nome;
@@ -14,11 +14,7 @@ class Conta {
     }
 
     logar(){
-        console.log('******************************');
-        console.log(`Olá ${this.nome} ${this.sobrenome}!`);
-        console.log('Seja bem vindo ao Banco JS');
-        console.log('O que deseja fazer hoje?');
-        console.log('******************************');
+       return `Olá ${this.nome} ${this.sobrenome}!<br>Seja bem vindo ao Banco JS<br>O que deseja fazer hoje?`;
     }
 
     // Crie um método chamado depositar que recebe um valor e adiciona ao saldo atual
@@ -74,17 +70,5 @@ class Conta {
 
     // Crie um método chamado fazerPix que recebe um valor e uma conta e subtrai do saldo atual e deposita na conta informada
 }
-
-
-const contaJose = new Conta('José', 'Rodrigues');
-
-    contaJose.logar();
-
-
-
-
-
-
-
 
 // TODO: criar uma pagina HTML para criar uma conta e fazer as operações bancárias

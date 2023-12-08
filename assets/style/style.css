@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', monospace;
+}
+
+#page__wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    background-color: #fff;
+}
+
+.navbar__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100px;
+    margin-right: 3rem;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar__links {
+    
+}
+
+.navbar__links ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar__links a {
+    background-color: #fff;
+    color: gold;
+    margin: 1rem;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    height: 100%;
+}
+
+.content__create--account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#account--name--input {
+    width: 5rem;
+}
+
+.mini__form {
+    display: flex;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 3rem;
+}
+
+p {
+    color: #fff;
+    margin-right: 1rem;
+}
+
+button {
+    margin: 1rem;
+    padding: .2rem;
+    border-radius: 6px;
+}
