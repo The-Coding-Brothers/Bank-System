@@ -1,4 +1,4 @@
-# Bank-System
+# The Coding Brothers Bank
 
 This project a simple mocked Banking experience built with HTML, CSS and some JavaScript.
 
@@ -14,7 +14,7 @@ This project a simple mocked Banking experience built with HTML, CSS and some Ja
 
 ## Links
 
-- Live Site URL: [The Code Brothers Bank](https://the-coding-brothers.github.io/Bank-System/)
+- Live Site URL: [The Coding Brothers Bank](https://the-coding-brothers.github.io/Bank-System/)
 
 <br />
 
